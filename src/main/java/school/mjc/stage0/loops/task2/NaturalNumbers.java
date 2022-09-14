@@ -4,9 +4,10 @@ public class NaturalNumbers {
     public static void main(String[] args) {
         naturalNumbersPrinter(0);
     }
+
     public static void naturalNumbersPrinter(int lastPrinted) {
         int counter = 0;
-        while (counter <=lastPrinted){
+        while (counter <= lastPrinted) {
             System.out.println(counter);
             counter++;
         }
